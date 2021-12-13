@@ -22,7 +22,9 @@ function Slider1() {
     <div className="slider1">
       <div className="slider2">
         <div className="slider3">
-          <h6 className="slider10" >MY MARKETS</h6>
+          <h6 className="slider10-h6-label-1" >MY MARKETS</h6>
+          <span className="slider-dropdown-span-p-1"></span>
+          <div className="slider-dropdown-paragraph-h-1">
           <Dropdown1 />
           <Dropdown2 />
           <Dropdown3 />
@@ -31,6 +33,7 @@ function Slider1() {
           <Dropdown6 />
           <Dropdown7 />
           <Dropdown8 />
+          </div>
         </div>
         <div className="slider4" >
           <Carousel autoplay>

@@ -214,31 +214,31 @@ function Navbar2() {
                     <span className="trade1">Personal Protective Equipment</span>
                     <span className="trade1">Trade Shows</span>
 
-                        <Menu onClick={handleClick} mode="horizontal">
-                            <SubMenu key="sub1" title="Buyer Central">
-                                <Menu.Item className="opt" key="1">Blog</Menu.Item>
-                                <Menu.Item className="opt" key="2">Trade Assurance</Menu.Item>
-                                <Menu.Item className="opt" key="3">Production Monitoring & Inspection Services</Menu.Item>
-                                <Menu.Item className="opt" key="4">Logistics Service</Menu.Item>
-                                <Menu.Item className="opt" key="4">Letter of Credit</Menu.Item>
-                            </SubMenu>
-                        </Menu>
-                        <Menu onClick={handleClick} mode="horizontal">
-                            <SubMenu key="sub1" title="Sell on Alibaba">
-                                <Menu.Item className="opt" key="1">For Global Seller</Menu.Item>
-                                <Menu.Item className="opt" key="2">For Chinese Seller</Menu.Item>
-                                <Menu.Item className="opt" key="3">Partner Program</Menu.Item>
-                            </SubMenu>
-                        </Menu>
-                        <Menu onClick={handleClick} mode="horizontal">
-                            <SubMenu key="sub1"  title="Help">
-                                <Menu.Item className="opt" key="1">For Buyers</Menu.Item>
-                                <Menu.Item className="opt" key="2">For Suppliers</Menu.Item>
-                                <Menu.Item className="opt" key="3">Submit a Dispute</Menu.Item>
-                                <Menu.Item className="opt" key="4">Report IPR Infringement</Menu.Item>
-                                <Menu.Item className="opt" key="4">Report Abuse</Menu.Item>
-                            </SubMenu>
-                        </Menu>
+                    <Menu onClick={handleClick} mode="horizontal">
+                        <SubMenu key="sub1" title="Buyer Central">
+                            <Menu.Item className="opt" key="1">Blog</Menu.Item>
+                            <Menu.Item className="opt" key="2">Trade Assurance</Menu.Item>
+                            <Menu.Item className="opt" key="3">Production Monitoring & Inspection Services</Menu.Item>
+                            <Menu.Item className="opt" key="4">Logistics Service</Menu.Item>
+                            <Menu.Item className="opt" key="4">Letter of Credit</Menu.Item>
+                        </SubMenu>
+                    </Menu>
+                    <Menu onClick={handleClick} mode="horizontal">
+                        <SubMenu key="sub1" title="Sell on Alibaba">
+                            <Menu.Item className="opt" key="1">For Global Seller</Menu.Item>
+                            <Menu.Item className="opt" key="2">For Chinese Seller</Menu.Item>
+                            <Menu.Item className="opt" key="3">Partner Program</Menu.Item>
+                        </SubMenu>
+                    </Menu>
+                    <Menu onClick={handleClick} mode="horizontal">
+                        <SubMenu key="sub1" title="Help">
+                            <Menu.Item className="opt" key="1">For Buyers</Menu.Item>
+                            <Menu.Item className="opt" key="2">For Suppliers</Menu.Item>
+                            <Menu.Item className="opt" key="3">Submit a Dispute</Menu.Item>
+                            <Menu.Item className="opt" key="4">Report IPR Infringement</Menu.Item>
+                            <Menu.Item className="opt" key="4">Report Abuse</Menu.Item>
+                        </SubMenu>
+                    </Menu>
                 </div>
             </div>
         </>

@@ -111,7 +111,7 @@ function Cards() {
                         {arr.map((e, i) => {
                             return (
                                 <div className="key product" key={i}>
-                                    <img src={e.img} />
+                                    <img className="key4img" src={e.img} />
                                     <p className="price"><br />{e.price}</p>
                                     <p className="value"><br />{e.value}</p>
                                 </div>
@@ -128,7 +128,7 @@ function Cards() {
                         {arr2.map((e, i) => {
                             return (
                                 <div className="key product" key={i}>
-                                    <img src={e.img} />
+                                    <img className="key4img" src={e.img} />
                                     <p className="price"><br />{e.price}</p>
                                     <p className="value"><br />{e.value}</p>
                                 </div>
@@ -145,7 +145,7 @@ function Cards() {
                         {arr3.map((e, i) => {
                             return (
                                 <div className="key2 product" key={i}>
-                                    <img src={e.img} />
+                                    <img className="key4img" src={e.img} />
                                     <p className="price"><br />{e.price}</p>
                                 </div>
                             )
@@ -163,7 +163,7 @@ function Cards() {
                         {arr4.map((e, i) => {
                             return (
                                 <div className="key product" key={i}>
-                                    <img src={e.img} />
+                                    <img className="key4img" src={e.img} />
                                     <p className="price"><br />{e.price}</p>
                                     <p className="value"><br />{e.value}</p>
                                 </div>
@@ -180,7 +180,7 @@ function Cards() {
                         {arr5.map((e, i) => {
                             return (
                                 <div className="key product" key={i}>
-                                    <img src={e.img} />
+                                    <img className="key4img" src={e.img} />
                                     <p className="price"><br />{e.price}</p>
                                     <p className="value"><br />{e.value}</p>
                                 </div>
@@ -197,7 +197,7 @@ function Cards() {
                         {arr6.map((e, i) => {
                             return (
                                 <div className="key2 product" key={i}>
-                                    <img src={e.img} />
+                                    <img className="key4img" src={e.img} />
                                     <p className="price"><br />{e.price}</p>
                                 </div>
                             )

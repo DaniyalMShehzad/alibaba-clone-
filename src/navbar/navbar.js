@@ -1,6 +1,14 @@
 import * as React from 'react';
 import img from "../img/img.jpg"
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { Avatar } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+// import Signin from './dropdown2/sign in';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+import Signin from './dropdown2/sign in';
+import Signin2 from './dropdown2/signin2';
+import Signin3 from './dropdown2/signin3';
+import Signin4 from './dropdown2/signin4';
 export default function DenseAppBar() {
     // const [scrolling,setScrolling] =useState();
     // window.addEventListener("scroll",(move)=>{
@@ -15,7 +23,7 @@ export default function DenseAppBar() {
     //     navbar3.classList.remove('navbar3');
     // }
     //   })
-    React.useEffect(() => {
+    useEffect(() => {
         setTimeout(() => {
 
             document.addEventListener("scroll", () => {
@@ -36,7 +44,7 @@ export default function DenseAppBar() {
                     navbar3.classList.add('navbar3');
                     navbar4.classList.add('navbar4');
                     navbar5.classList.add('navbar5');
-                    navbar6.classList.add('navbar');
+                    navbar6.classList.add('navbar6');
                     //   setScroll(scrollCheck)
                 }
                 else {
@@ -66,22 +74,29 @@ export default function DenseAppBar() {
                     <button id="navbar4" className="btn">Search</button>
                 </div>
                 <div id="navbar2" className="nav4">
-                    {/* <i className="fa-solid fa-arrow-right-to-bracket" ></i> */}
-                    <div className="btnlogo">
-                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
-                    </div>
-                    <div className="btnlogo">
+                    <Signin/>
+                    <Signin2/>
+                    <Signin3/>
+                    <Signin4/>
+                    {/* <div className="logo-2">
                         <i className="fa-solid fa-message"></i>
+                        <div className="btnlogo-2">
+                            <span className="span-text">Messages</span>
+                        </div>
                     </div>
-                    <div className="btnlogo">
-                        <button className="logobuttons">$</button>
+                    <div className="logo-2">
+                        <button className="logobuttons-1">$</button>
+                        <div className="btnlogo-3">
+                            <span className="span-text">Orders</span>
+                        </div>
                     </div>
-                    <div className="btnlogo">
-                        <i className="fas fa-shopping-cart"></i>
-                    </div>
+                    <div className="logo-2">
+                        <div className="btnlogo-4">
+                            <span className="span-text">Cart</span>
+                        </div>
+                    </div> */}
                 </div>
             </div>
-            <div className="nav5"></div>
         </>
     );
 }

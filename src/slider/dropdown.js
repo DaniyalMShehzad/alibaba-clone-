@@ -8,9 +8,10 @@ function Dropdown1() {
     // state = {
     //     current: 'mail',
     //   };
-    const names = [
-        "Camera", "Photo & Accessories",
-        "Action & Sports", "Camera",
+    const arr = [
+        "Camera,Photo & Accessories",
+        "Action & Sports",
+        "Camera",
         "Action & Sports Camera Accessory",
         "Baby & Pet Monitor",
         "Backgrounds",
@@ -57,11 +58,14 @@ function Dropdown1() {
     };
 
     return (
-        <div>
+        <div className="handleclick-div drop-mneu-onclick">
             <Menu onClick={handleClick} style={{ width: 256 }} mode="vertical">
-                <SubMenu key="sub1" title="Consumer Electronics">
-                    {names.map((name, i) => {
-                        return <Menu.Item className="opt3"  key={i}>{name}</Menu.Item>
+                <img className="div-handlclick-menu-img--sub" src="https://sc02.alicdn.com/kf/HTB12RuNUmzqK1RjSZFH7623CpXa6.png_50x50xz.jpg" />
+                <SubMenu key="sub1" title="Consumer Electronics" >
+                    {arr.map((e, i) => {
+                        return (
+                            <Menu.Item className={i} key={i}>{e}</Menu.Item>
+                        )
                     })}
                 </SubMenu>
                 {/* <SubMenu key="sub1" title="Buyer Central">

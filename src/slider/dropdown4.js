@@ -59,9 +59,10 @@ function Dropdown4() {
     return (
         <div>
             <Menu onClick={handleClick} style={{ width: 256 }} mode="vertical">
+                <img className="div-handlclick-menu-img--sub" src="https://sc02.alicdn.com/kf/HTB12RuNUmzqK1RjSZFH7623CpXa6.png_50x50xz.jpg" />
                 <SubMenu key="sub1" title="Vehicle & Accessories">
                     {names.map((name, i) => {
-                        return <Menu.Item className="opt3"  key={i}>{name}</Menu.Item>
+                        return <Menu.Item className="opt3" key={i}>{name}</Menu.Item>
                     })}
                 </SubMenu>
                 {/* <SubMenu key="sub1" title="Buyer Central">
